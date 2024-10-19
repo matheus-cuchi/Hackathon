@@ -13,10 +13,10 @@ Este projeto visa desenvolver uma forma de persistência para os DTOs `Pessoa` e
 - **Empresa:** Deve ser o nome de uma empresa, com tamanho máximo de 255 caracteres.
 
 ### DTO `Pessoa`
-- **Documento:** Deverá ser único.
+- **Documento:** Deverá ser único,com tamanho mínimo de 11 e máximo de 14.
 - **DataNascimento:** Deve ser posterior a 01/01/1900.
-- **Nome:** Será tratado como o primeiro nome da pessoa.
-- **Sobrenome:** Será tratado como o sobrenome da pessoa.
+- **Nome:** Será tratado como o primeiro nome da pessoa, com tamanho máximo de 20 caracteres.
+- **Sobrenome:** Será tratado como o sobrenome da pessoa, com tamanho máximo de 200 caracteres..
 
 ## Métodos das interfaces
 
